@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Add Books</title>
+	</head>
+	
+	<body>
+		<table border="1" align="center" width="70%"  style= background-color:orange; >
+			<tr>
+			    
+				<td colspan="3" align="left">
+				<a  href="admindashboard.html"><font color="lime"><u>Home</u></a> |
+			<select	 name="forma" onchange="location = this.value;" >
+			<option value="admindashboard.html">Modules</option>
+			<option value="categorylisting.html">Manage Category</option>
+			<option value="addcategory.html">Add Category</option>
+			<option value="manageauthors.html">Manage Authors</option>
+			<option value="addauthor.html">Add Authors</option>
+			<option value="managebooks.html">Manage Books</option>
+			<option value="addbooks.html">Add Books</option>
+		    </select>				|
+			
+			<select	 name="forma" onchange="location = this.value;"  >
+			<font color="lime">
+			<option>Issue Books</option>
+			<option value="home.html" href="login.html">Manage Books Issued</option>
+			<option value="home.html" href="login.html">New Book Issue</option>
+			</select>
+			
+			<a width="20%" href="login.html"><font color="lime"><u>Logout</u></a> 
+				
+				
+				
+	    </td>
+		</tr>
+			 
+				
+			
+			<tr>
+			
+			<td height="550" valign="center">
+			<fieldset >
+			    <legend>Add Books</legend>
+			    <br>Book Name:
+				<input type="text"  size="40" > </br> 
+				
+				<br>
+				<br>Author:
+				<input type="text"  size="45" > </br> 
+				</br>
+				
+				<br>ISBN Number:
+				<input type="text"  size="37" > </br> 
+				
+				<br>
+				Category:
+				<select width="43">
+		        <option value="Arts">Arts</option>
+                <option value="Fictions">Fictions</option>
+		        <option value="Engineering Books">Engineering Books</option>
+		        </select>
+				</br>
+				
+				
+				<br>
+				<input style= background-color:red; size="31%" type="submit"  value="submit"> 
+				</br>
+				
+			</fieldset>
+			
+			</tr>
+				
+		    
+			
+			<tr>
+				<td colspan="3" align="center"><p>Copyright@2017</P></td>	
+			</tr>
+				
+			
+		</table>
+	</body>
+</html>
